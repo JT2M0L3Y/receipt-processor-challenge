@@ -1,0 +1,7 @@
+services:
+  receipt-processor:
+    build: .
+    container_name: receipt-processor
+    restart: always
+    ports:
+      - "8080:8080"
